@@ -2,67 +2,71 @@
 #include <vector>
 
 // 名前空間の指定
-using namespace std;
+//using namespace std;
 
 void testVector()
 {
-	cout << "<< vector >>" << endl;
+	int a[] = { 10,20,30 };
+	// これは実行時もエラーにならない
+	std::cout << a[-1] << std::endl;
+
+	std::cout << "<< vector >>" << std::endl;
 	// vectorの宣言
-	vector<int> v = { 10, 20, 30 };
+	std::vector<int> v = { 10, 20, 30 };
 	// 要素数の取得
-	cout << "要素数 : " << v.size() << endl;
+	std::cout << "要素数 : " << v.size() << std::endl;
 	// 要素の一覧
-	for (int x : v) cout << x << " ";
-	cout << endl;
+	for (int x : v) std::cout << x << " ";
+	std::cout << std::endl;
 
 	// 要素の追加
-	cout << "<要素の追加>" << endl;
+	std::cout << "<要素の追加>" << std::endl;
 	v.push_back(40);
-	cout << "要素数 : " << v.size() << endl;
+	std::cout << "要素数 : " << v.size() << std::endl;
 	// 要素の一覧
-	for (int x : v) cout << x << " ";
-	cout << endl;
+	for (int x : v) std::cout << x << " ";
+	std::cout << std::endl;
 
 	// 要素の参照
-	cout << "<要素の参照>" << endl;
-	cout << v[0] << endl;
-	cout << v.at(1) << endl;
+	std::cout << "<要素の参照>" << std::endl;
+	std::cout << v[0] << std::endl;
+	std::cout << v.at(1) << std::endl;
 
 	// ここから実習を始める
 	// 1.要素の参照エラー
-	//cout << v[-1] << endl;
+	//std::cout << v[-1] << std::endl;
 	// 2.要素の参照エラー
-	//cout << v[4] << endl;
+	//std::cout << v[4] << std::endl;
 	// 3.要素の参照エラー
-	//cout << v.at(-1) << endl;
+	//std::cout << v.at(-1) << std::endl;
 	// 4.要素の参照エラー
-	//cout << v.at(4) << endl;
+	//std::cout << v.at(4) << std::endl;
 
 	// 要素の削除
-	cout << "<要素の削除>" << endl;
+	std::cout << "<要素の削除>" << std::endl;
 	v.pop_back();
 	// 要素数の取得
-	cout << "要素数 : " << v.size() << endl;
+	std::cout << "要素数 : " << v.size() << std::endl;
 	// 要素の一覧
-	for (int x : v) cout << x << " ";
-	cout << endl;
+	for (int x : v) std::cout << x << " ";
+	std::cout << std::endl;
 
 	// 全削除
 	v.clear();
-	cout << "<要素の全削除>" << endl;
-	cout << "要素数 : " << v.size() << endl;
+	std::cout << "<要素の全削除>" << std::endl;
+	std::cout << "要素数 : " << v.size() << std::endl;
 
-	cout << "<入れられる要素数の確認>" << endl;
+	std::cout << "<入れられる要素数の確認>" << std::endl;
 	for (int i = 0; i < 10; i++)
 	{
 		v.push_back(i);
 		// 要素数の取得
-		cout << "要素数 : " << v.size() << endl;
+		std::cout << "要素数 : " << v.size() << std::endl;
 		// 入れられる要素数
-		cout << "入れられる要素数 : " << v.capacity() << endl;
+		std::cout << "入れられる要素数 : " << v.capacity() << std::endl;
 	}
-	cout << "<入れられる要素数の変更>" << endl;
+	std::cout << "<入れられる要素数の変更>" << std::endl;
 	//v.reserve(10);
 	v.reserve(100);
-	cout << "入れられる要素数 : " << v.capacity() << endl;
+	std::cout << "入れられる要素数 : " << v.capacity() << std::endl;
 }

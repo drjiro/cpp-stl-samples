@@ -2,71 +2,70 @@
 #include <deque>
 
 // 名前空間の指定
-using namespace std;
+//using namespace std;
 
 void testDeque()
 {
-	cout << "<< deque >>" << endl;
+	std::cout << "<< deque >>" << std::endl;
 	// vectorの宣言
-	deque<int> d = { 10, 20 };
+	std::deque<int> d = { 10, 20 };
 	// 要素数の取得
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 	// 要素の一覧
-	for (int x : d) cout << x << " ";
-	cout << endl;
+	for (int x : d) std::cout << x << " ";
+	std::cout << std::endl;
 	
 	// 末尾に追加
-	cout << "<末尾に追加>" << endl;
+	std::cout << "<末尾に追加>" << std::endl;
 	d.push_back(30);
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 	// 要素の一覧
-	for (int x : d) cout << x << " ";
-	cout << endl;
+	for (int x : d) std::cout << x << " ";
+	std::cout << std::endl;
 	
 	// 先頭に追加
-	cout << "<先頭に追加>" << endl;
+	std::cout << "<先頭に追加>" << std::endl;
 	d.push_front(40);
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 	// 要素の一覧
-	for (int x : d) cout << x << " ";
-	cout << endl;
+	for (int x : d) std::cout << x << " ";
+	std::cout << std::endl;
 	
 	// 要素の参照
-	cout << "<要素の参照>" << endl;
-	cout << d[0] << endl;
-	cout << d.at(1) << endl;
+	std::cout << "<要素の参照>" << std::endl;
+	std::cout << d[0] << std::endl;
+	std::cout << d.at(1) << std::endl;
 	
 	// ここから実習を始める
 	// 1.要素の参照エラー
-	//cout << d[-1] << endl;
+	//std::cout << d[-1] << std::endl;
 	// 2.要素の参照エラー
-	//cout << d[4] << endl;
+	//std::cout << d[4] << std::endl;
 	// 3.要素の参照エラー
-	//cout << d.at(-1) << endl;
+	//std::cout << d.at(-1) << std::endl;
 	// 4.要素の参照エラー
-	//cout << d.at(4) << endl;
+	//std::cout << d.at(4) << std::endl;
 	
 	// 末尾を削除
-	cout << "<末尾を削除>" << endl;
+	std::cout << "<末尾を削除>" << std::endl;
 	d.pop_back();
 	// 要素数の取得
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 	// 要素の一覧
-	for (int x : d) cout << x << " ";
-	cout << endl;
+	for (int x : d) std::cout << x << " ";
+	std::cout << std::endl;
 	
 	// 先頭を削除
-	cout << "<先頭を削除>" << endl;
+	std::cout << "<先頭を削除>" << std::endl;
 	d.pop_front();
 	// 要素数の取得
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 	// 要素の一覧
-	for (int x : d) cout << x << " ";
-	cout << endl;
+	for (int x : d) std::cout << x << " ";
+	std::cout << std::endl;
 	
 	// 全削除
 	d.clear();
-	cout << "<要素の全削除>" << endl;
-	cout << "要素数 : " << d.size() << endl;
+	std::cout << "<要素の全削除>" << std::endl;
+	std::cout << "要素数 : " << d.size() << std::endl;
 }
-

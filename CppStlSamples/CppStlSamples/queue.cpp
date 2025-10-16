@@ -2,58 +2,58 @@
 #include <queue>
 
 // 名前空間の指定
-using namespace std;
+//using namespace std;
 
 void testQueue()
 {
-	cout << "<< queue >>" << endl;
+	std::cout << "<< queue >>" << std::endl;
 	// vectorの宣言
-	queue<int> q;
+	std::queue<int> q;
 	// 要素数の取得
-	cout << "要素数 : " << q.size() << endl;
+	std::cout << "要素数 : " << q.size() << std::endl;
 
 	// 追加
-	cout << "<追加>" << endl;
+	std::cout << "<追加>" << std::endl;
 	q.push(10);
-	cout << "要素数 : " << q.size() << endl;
+	std::cout << "要素数 : " << q.size() << std::endl;
 	// トップ要素の参照
-	cout << "トップ要素の参照" << q.front() << endl;
+	std::cout << "トップ要素の参照" << q.front() << std::endl;
 	// 最後要素の参照
-	cout << "最後要素の参照" << q.back() << endl;
+	std::cout << "最後要素の参照" << q.back() << std::endl;
 
 	// 追加
-	cout << "<追加>" << endl;
+	std::cout << "<追加>" << std::endl;
 	q.push(20);
-	cout << "要素数 : " << q.size() << endl;
+	std::cout << "要素数 : " << q.size() << std::endl;
 	// トップ要素の参照
-	cout << "トップ要素の参照" << q.front() << endl;
+	std::cout << "トップ要素の参照" << q.front() << std::endl;
 	// 最後要素の参照
-	cout << "最後要素の参照" << q.back() << endl;
+	std::cout << "最後要素の参照" << q.back() << std::endl;
 
 	// ここから実習を始める
 	// 1.要素の参照エラー
-	//cout << q[0] << endl;
+	//std::cout << q[0] << std::endl;
 	// 2.要素の参照エラー
-	//cout << q.at(1) << endl;
+	//std::cout << q.at(1) << std::endl;
 
 	// 削除
-	cout << "<削除>" << endl;
+	std::cout << "<削除>" << std::endl;
 	q.pop();
-	cout << "要素数 : " << q.size() << endl;
+	std::cout << "要素数 : " << q.size() << std::endl;
 	// トップ要素の参照
-	cout << "トップ要素の参照" << q.front() << endl;
+	std::cout << "トップ要素の参照" << q.front() << std::endl;
 	// 最後要素の参照
-	cout << "最後要素の参照" << q.back() << endl;
+	std::cout << "最後要素の参照" << q.back() << std::endl;
 
 	// 削除
-	cout << "<削除>" << endl;
+	std::cout << "<削除>" << std::endl;
 	q.pop();
-	cout << "要素数 : " << q.size() << endl;
+	std::cout << "要素数 : " << q.size() << std::endl;
 
 	// ここから実習を始める
 	// 1,トップ要素の参照エラー
-	//cout << "トップ要素の参照" << q.front() << endl;
+	//std::cout << "トップ要素の参照" << q.front() << std::endl;
 	// 2.最後要素の参照エラー
-	//cout << "最後要素の参照" << q.back() << endl;
+	//std::cout << "最後要素の参照" << q.back() << std::endl;
 }
 
