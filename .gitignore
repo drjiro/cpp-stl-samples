@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+/ConsoleApplication2
+/ConsoleApplication1
+/.vs
+/CppStlSamples/.vs/CppStlSamples
+/CppStlSamples/CppStlSamples/ARM64/Debug
