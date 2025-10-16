@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\deque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\deque.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\vector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2BF5AD64-CCF4-4300-9198-07360AD932DA}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "deque.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\deque.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\deque.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\deque.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\deque.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T17:03:16.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "queue.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\queue.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\queue.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\queue.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\queue.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T16:33:01.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stack.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\stack.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\stack.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\stack.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\stack.cpp",
+              "ViewState": "AgIAABsAAACozMzMzMwnwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T16:19:23.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "list.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\list.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\list.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\list.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\list.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-14T09:19:08.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\main.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\main.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-14T05:36:18.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vector.cpp",
+              "DocumentMoniker": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\vector.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\vector.cpp",
+              "ToolTip": "C:\\Users\\drjiro\\source\\repos\\drjiro\\cpp-stl-samples\\ConsoleApplication1\\ConsoleApplication1\\vector.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\vector.cpp",
+              "ViewState": "AgIAADoAAAAAbGZmZmbWv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-14T07:49:37.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
