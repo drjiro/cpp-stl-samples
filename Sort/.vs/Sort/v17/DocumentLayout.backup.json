@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bench.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\bench.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bubble.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\bubble.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\quick2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\quick2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\qsortLib2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\qsortLib2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\merge2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\merge2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\heap2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4361147-938A-42FC-8996-C4C0D117B5A4}|Sort\\Sort.vcxproj|solutionrelative:Sort\\heap2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "bench.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bench.cpp",
+              "RelativeDocumentMoniker": "Sort\\bench.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bench.cpp",
+              "RelativeToolTip": "Sort\\bench.cpp",
+              "ViewState": "AgIAALsAAAAAAAAAAAzCPb0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T05:34:08.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sort.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\sort.cpp",
+              "RelativeDocumentMoniker": "Sort\\sort.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\sort.cpp",
+              "RelativeToolTip": "Sort\\sort.cpp",
+              "ViewState": "AgIAACoAAAAACDMzMzPrv14AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T05:33:12.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "qsortLib2.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\qsortLib2.cpp",
+              "RelativeDocumentMoniker": "Sort\\qsortLib2.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\qsortLib2.cpp",
+              "RelativeToolTip": "Sort\\qsortLib2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T03:51:14.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "quick2.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\quick2.cpp",
+              "RelativeDocumentMoniker": "Sort\\quick2.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\quick2.cpp",
+              "RelativeToolTip": "Sort\\quick2.cpp",
+              "ViewState": "AgIAACYAAAAAnZmZmZkuwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T03:50:54.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bubble.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bubble.cpp",
+              "RelativeDocumentMoniker": "Sort\\bubble.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\bubble.cpp",
+              "RelativeToolTip": "Sort\\bubble.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T03:50:33.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "merge2.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\merge2.cpp",
+              "RelativeDocumentMoniker": "Sort\\merge2.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\merge2.cpp",
+              "RelativeToolTip": "Sort\\merge2.cpp",
+              "ViewState": "AgIAAE0AAACA8////78twEcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T03:48:52.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "heap2.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\heap2.cpp",
+              "RelativeDocumentMoniker": "Sort\\heap2.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\Sort\\Sort\\heap2.cpp",
+              "RelativeToolTip": "Sort\\heap2.cpp",
+              "ViewState": "AgIAADUAAAAA0szMzMwnwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-29T12:17:04.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

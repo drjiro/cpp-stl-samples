@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Puyo WebAssembly</title>
+<style>
+  body { background:#222; color:#eee; font-family:sans-serif; }
+  canvas { background:#000; display:block; margin-top:10px; }
+  button { margin-right:6px; }
+</style>
+</head>
+<body>
+<h1>Puyo (C++ / WASM)</h1>
+<button onclick="initBoard(); drawBoard();">Reset</button>
+<button onclick="spawnPuyo(); drawBoard();">Spawn</button>
+<button onclick="gameLoop();">Start</button>
+<span id="info"></span>
+<canvas id="board" width="240" height="480"></canvas>
+
+<script>
+var Module = {
+  onRuntimeInitialized() {
+    console.log("WASM ready!");
+
+    // WASM 関数
+    window.initBoard = Module.cwrap('initBoard', 'void', []);
+    window.getCell   = Module.cwrap('getCell', 'number', ['number','number']);
+    window.stepPuyo  = Module.cwrap('step', 'number', []);
+    window.getWidth  = Module.cwrap('getWidth', 'number', []);
+    window.getHeight = Module.cwrap('getHeight', 'number', []);
+    window.spawnPuyo  = Module.cwrap('spawnPuyo',  'void', []);
+    window.moveDown   = Module.cwrap('moveDown',   'number', []);
+    window.moveLeft   = Module.cwrap('moveLeft',   'void', []);
+    window.moveRight  = Module.cwrap('moveRight',  'void', []);
+    window.rotatePuyo = Module.cwrap('rotate',     'void', []);
+
+    // ◆ 初期状態：盤面だけ表示（ぷよ無し）
+    initBoard();
+    drawBoard();
+  }
+};
+</script>
+<script src="puyo.js"></script>
+
+<script>
+const canvas = document.getElementById("board");
+const ctx = canvas.getContext("2d");
+
+function colorFor(c){ return ['#222','#f55','#5f5','#55f','#ff5'][c] || '#222'; }
+
+function drawBoard() {
+  const W = getWidth(), H = getHeight();
+  const sx = canvas.width  / W;
+  const sy = canvas.height / H;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+
+  // 盤面
+  for(let y=0;y<H;y++)for(let x=0;x<W;x++){
+    ctx.fillStyle = colorFor(getCell(x,y));
+    ctx.fillRect(x*sx, y*sy, sx-1, sy-1);
+  }
+
+  // 操作ぷよ（あれば）
+  if(Module._puyo_get_x){
+    if(Module._puyo_get_colorA() > 0){  // 無い時は 0
+      drawActivePuyo();
+    }
+  }
+}
+
+function drawActivePuyo(){
+  const x = Module._puyo_get_x();
+  const y = Module._puyo_get_y();
+  const rot = Module._puyo_get_rot();
+  const colorA = Module._puyo_get_colorA();
+  const colorB = Module._puyo_get_colorB();
+  if(colorA === 0) return; // spawn されていなければ何もしない
+
+  const dirs=[[0,-1],[1,0],[0,1],[-1,0]];
+  const [dx,dy] = dirs[rot];
+  const sx = canvas.width/getWidth(), sy = canvas.height/getHeight();
+
+  ctx.fillStyle = colorFor(colorA);
+  ctx.fillRect(x*sx, y*sy, sx-1, sy-1);
+  ctx.fillStyle = colorFor(colorB);
+  ctx.fillRect((x+dx)*sx, (y+dy)*sy, sx-1, sy-1);
+}
+
+// ===== 落下速度調整 =====
+let dropTimer = 0;
+const dropInterval = 40;  // ← ここを調整すればOK！
+
+function gameLoop(){
+  dropTimer++;
+  if(dropTimer >= dropInterval){
+    dropTimer = 0;
+
+    if(!moveDown()){
+      stepPuyo();
+      spawnPuyo();
+    }
+  }
+
+  drawBoard();
+  requestAnimationFrame(gameLoop);
+}
+
+// キー操作
+window.addEventListener('keydown', e=>{
+  if(e.code==='ArrowLeft') moveLeft();
+  if(e.code==='ArrowRight')moveRight();
+  if(e.code==='ArrowUp')   rotatePuyo();
+  if(e.code==='ArrowDown') moveDown();
+  drawBoard();
+});
+</script>
+
+</body>
+</html>

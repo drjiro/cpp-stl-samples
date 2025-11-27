@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\repos\\drjiro\\cpp-stl-samples\\List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D93A509-6CE9-445F-9F76-5CF060990042}|List\\List.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\List\\List\\list9_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D93A509-6CE9-445F-9F76-5CF060990042}|List\\List.vcxproj|solutionrelative:List\\list9_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "list9_2.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\List\\List\\list9_2.cpp",
+              "RelativeDocumentMoniker": "List\\list9_2.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\List\\List\\list9_2.cpp",
+              "RelativeToolTip": "List\\list9_2.cpp",
+              "ViewState": "AgIAAGoAAADAaWZmZmYiwHUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-13T05:03:21.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

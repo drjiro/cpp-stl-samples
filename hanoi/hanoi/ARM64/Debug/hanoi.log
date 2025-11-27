@@ -1,0 +1,23 @@
+﻿  hanoi.cpp
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(12,53): error C2760: 構文エラー: '<' は予期しないエラーでした。')' が必要です
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(12,54): error C2062: 型 'int' は不要です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(12,61): error C2059: 構文エラー: ')'
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(12,63): error C2143: 構文エラー: ';' が '{' の前にありません。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(13,22): error C2065: 'name': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(14,22): error C2065: 'v': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(14,20): error C2143: 構文エラー: ';' が ':' の前にありません。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(14,23): error C2143: 構文エラー: ';' が ')' の前にありません。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(18,5): error C3536: 'print': 初期化前に使用することはできません
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(27,5): error C2065: 'vector': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(27,12): error C2062: 型 'int' は不要です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(28,5): error C2065: 'vector': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(28,12): error C2062: 型 'int' は不要です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(30,22): error C2065: 'src': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(31,27): error C2065: 'src': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(32,10): error C2065: 'src': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(34,20): error C2065: 'dst': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(35,25): error C2065: 'dst': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(36,10): error C2065: 'dst': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(38,16): error C2065: 'src': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(39,5): error C2065: 'src': 定義されていない識別子です。
+Y:\repos\drjiro\cpp-stl-samples\hanoi\hanoi\hanoi.cpp(40,5): error C2065: 'dst': 定義されていない識別子です。
