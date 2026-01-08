@@ -1,45 +1,102 @@
-# Prerequisites
-*.d
+############################################################
+# Visual Studio / MSVC
+############################################################
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio working directory
+.vs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Linker files
-*.ilk
+# IntelliSense
+*.ipch
 
-# Debugger Files
-*.pdb
+############################################################
+# Build results
+############################################################
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
+# Build directories
 **/Debug/
 **/Release/
-*.dwo
+**/RelWithDebInfo/
+**/MinSizeRel/
+**/x64/
+**/x86/
+**/ARM/
+**/ARM64/
+**/build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+*.cmake
+out/
+
+############################################################
+# Compiled binaries
+############################################################
+
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.iobj
+*.ipdb
+*.idb
+
+############################################################
+# Logs / temp
+############################################################
+
 *.log
-/.vs/
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+############################################################
+# Visual Studio generated files
+############################################################
+
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.bak
+*.vcxproj.*.user
+
+############################################################
+# Precompiled headers
+############################################################
+
+*.pch
+
+############################################################
+# vcpkg
+############################################################
+
+vcpkg_installed/
+vcpkg/buildtrees/
+vcpkg/packages/
+
+############################################################
+# Optional: Test / Coverage
+############################################################
+
+Testing/
+*.gcda
+*.gcno
+*.gcov
+
+############################################################
+# OS
+############################################################
+
+.DS_Store
+Thumbs.db
+desktop.ini
