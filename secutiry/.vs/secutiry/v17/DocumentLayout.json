@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\secutiry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\secutiry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\rsa2048.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\rsa2048.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\x25519.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\x25519.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\ed25519.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\ed25519.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\cbc_bitflip_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13524976-D025-49F8-9B44-D9D916756BC2}|secutiry\\secutiry.vcxproj|solutionrelative:secutiry\\cbc_bitflip_demo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\Readme.txt",
+              "RelativeDocumentMoniker": "secutiry\\Readme.txt",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\Readme.txt",
+              "RelativeToolTip": "secutiry\\Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-08T00:46:27.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "x25519.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\x25519.cpp",
+              "RelativeDocumentMoniker": "secutiry\\x25519.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\x25519.cpp",
+              "RelativeToolTip": "secutiry\\x25519.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T15:54:49.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ed25519.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\ed25519.cpp",
+              "RelativeDocumentMoniker": "secutiry\\ed25519.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\ed25519.cpp",
+              "RelativeToolTip": "secutiry\\ed25519.cpp",
+              "ViewState": "AgIAAAYAAABIMTMzM7MiwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T15:54:36.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rsa2048.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\rsa2048.cpp",
+              "RelativeDocumentMoniker": "secutiry\\rsa2048.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\rsa2048.cpp",
+              "RelativeToolTip": "secutiry\\rsa2048.cpp",
+              "ViewState": "AgIAAOUAAAAAyDMzMzPrv/AAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T15:52:02.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cbc_bitflip_demo.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\cbc_bitflip_demo.cpp",
+              "RelativeDocumentMoniker": "secutiry\\cbc_bitflip_demo.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\cbc_bitflip_demo.cpp",
+              "RelativeToolTip": "secutiry\\cbc_bitflip_demo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T15:38:00.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secutiry.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\secutiry.cpp",
+              "RelativeDocumentMoniker": "secutiry\\secutiry.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\secutiry\\secutiry\\secutiry.cpp",
+              "RelativeToolTip": "secutiry\\secutiry.cpp",
+              "ViewState": "AgIAAAkAAACAm5mZmZkOwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-07T15:37:56.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

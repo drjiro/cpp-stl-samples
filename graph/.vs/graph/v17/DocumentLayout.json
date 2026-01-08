@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\aster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|solutionrelative:graph\\aster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|solutionrelative:graph\\graph.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|solutionrelative:graph\\dijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|solutionrelative:graph\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\bfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBEC9A6C-2250-46BC-9170-0588B2EAB340}|graph\\graph.vcxproj|solutionrelative:graph\\bfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dijkstra.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dijkstra.cpp",
+              "RelativeDocumentMoniker": "graph\\dijkstra.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dijkstra.cpp",
+              "RelativeToolTip": "graph\\dijkstra.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowE0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T06:06:56.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "aster.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\aster.cpp",
+              "RelativeDocumentMoniker": "graph\\aster.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\aster.cpp",
+              "RelativeToolTip": "graph\\aster.cpp",
+              "ViewState": "AgIAAAAAAACAAAAAAAARwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T06:06:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dfs.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dfs.cpp",
+              "RelativeDocumentMoniker": "graph\\dfs.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\dfs.cpp",
+              "RelativeToolTip": "graph\\dfs.cpp",
+              "ViewState": "AgIAAEgAAACAAAAAAIAawFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T06:00:41.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bfs.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\bfs.cpp",
+              "RelativeDocumentMoniker": "graph\\bfs.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\bfs.cpp",
+              "RelativeToolTip": "graph\\bfs.cpp",
+              "ViewState": "AgIAABgAAABAAwAAAIAZwDsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T05:54:04.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "graph.cpp",
+              "DocumentMoniker": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\graph.cpp",
+              "RelativeDocumentMoniker": "graph\\graph.cpp",
+              "ToolTip": "Y:\\repos\\drjiro\\cpp-stl-samples\\graph\\graph\\graph.cpp",
+              "RelativeToolTip": "graph\\graph.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T05:53:32.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
