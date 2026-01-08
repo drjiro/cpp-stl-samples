@@ -1,3 +1,0 @@
-﻿  infinite.cpp
-Y:\repos\drjiro\cpp-stl-samples\infinite\infinite\infinite.cpp(5,1): warning C4717: 'inifinite': すべてのコントロールのパス、関数を回帰するとランタイム スタック オーバーフローが発生します。
-  infinite.vcxproj -> Y:\repos\drjiro\cpp-stl-samples\infinite\ARM64\Debug\infinite.exe
