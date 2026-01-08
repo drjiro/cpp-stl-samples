@@ -38,7 +38,9 @@
 *.app
 
 # debug information files
+Debug/
+Release/
 *.dwo
-/.vs
+/.vs/
 /CppStlSamples/.vs/CppStlSamples
 /CppStlSamples/CppStlSamples/ARM64/Debug
